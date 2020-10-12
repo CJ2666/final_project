@@ -1,6 +1,5 @@
 import csv
 from django.core.management import BaseCommand
-from dateutil import parser
 from sightings.models import Squirrel
 from datetime import date
 import re
